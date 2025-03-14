@@ -1024,6 +1024,10 @@ require('lazy').setup({
 -- vim: ts=2 sts=2 sw=2 et
 --
 -- Enable Hard Mode
+
+vim.wo.number = true
+vim.wo.relativenumber = true
+
 local hardmode = true
 if hardmode then
   -- Show an error message if a disabled key is pressed
